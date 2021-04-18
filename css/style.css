@@ -1,0 +1,957 @@
+/* Alfa Slab & Bebas Neue & Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ========
+Global CSS
+======== */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+button {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.btn {
+  transition: 0.3s ease-in-out;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+/* ===========
+Header Section
+=========== */
+header {
+  background: url(../img/banner-one.png) no-repeat center top;
+  background-size: cover;
+  padding: 25px 0px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info li {
+  list-style: none;
+  display: inline;
+  line-height: 56px;
+  padding-left: 15px;
+  color: #3d2514;
+  padding-right: 15px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px 6px;
+  color: #3d2514;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3d2514;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #bf2222;
+}
+
+/* Banner Section */
+.banner-section {
+  padding: 54px 0px 100px;
+}
+
+.banner-section h4 {
+  color: #3d2514;
+  border: dashed 3px #3d2514;
+  padding: 11px 10px;
+  width: 66%;
+  margin-top: 131px;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+
+.banner-section h1 {
+  color: #3d2514;
+  text-transform: uppercase;
+  font-size: 119px;
+  text-shadow: 3px 3px 3px #fff;
+  margin: 0;
+  line-height: 100px;
+  padding-top: 18px;
+}
+
+.banner-section h3 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #3d2514;
+  text-transform: uppercase;
+  font-size: 61px;
+  color: #3d2514;
+  text-shadow: 3px 3px 3px #fff;
+}
+
+.burger-img {
+  position: relative;
+}
+
+.package-price {
+  position: absolute;
+  background: #bf2222;
+  width: 200px;
+  height: 200px;
+  bottom: -64px;
+  left: 35px;
+  border-radius: 50%;
+  padding: 13px;
+  text-align: center;
+}
+
+.package-price h2 {
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.package-price h2 span {
+  font-size: 40px;
+}
+
+.package-price p {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  letter-spacing: 11px;
+  padding-left: 19px;
+}
+
+.package-price-border {
+  border: 2px dashed #fff;
+  width: 173px;
+  height: 173px;
+  border-radius: 50%;
+  line-height: 2px;
+}
+
+/* =============
+Features Section
+============= */
+.features-section {
+  padding-top: 75px;
+}
+
+.features-item {
+  position: relative;
+}
+
+.features-text {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.features-text h4 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.features-text h3 {
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.right-first-item {
+  margin-bottom: 44px;
+}
+
+/* ==========
+Menu Section
+========== */
+.menu-section {
+  padding: 75px 0px;
+}
+
+.menu-section h3 {
+  color: #3d2514;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ffc045;
+  font-family: 'Bebas Neue', cursive;
+  width: 20%;
+  margin: 0 auto;
+  font-size: 32px;
+  padding: 15px 0px;
+  line-height: 28px;
+}
+
+.menu-section h2 {
+  color: #3d2514;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  letter-spacing: 3px;
+}
+
+.menu-section p {
+  color: #3d2514;
+  text-align: center;
+  line-height: 28px;
+}
+
+.menu-items {
+  padding: 45px 0px;
+}
+
+.menu-items h2 {
+  color: #3d2514;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.menu-items p {
+  color: #3d2514;
+  text-align: center;
+  line-height: 26px;
+}
+
+.btn-menu {
+  color: #fff;
+  background: #bf2222;
+  margin: 0 auto;
+  width: 60%;
+  padding: 15px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.btn-menu:hover {
+  background: #ffc045;
+  color: #3d2514;
+  cursor: pointer;
+}
+
+/* ===========
+Events Section
+=========== */
+.events-section {
+  padding: 75px 0px;
+}
+
+.events-area {
+  box-shadow: 0px 0px 15px #989898;
+  padding: 30px;
+}
+
+.events-section h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #3d2514;
+  padding-top: 30px;
+}
+
+.events-section h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #3d2514;
+}
+
+.events-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  color: #3d2514;
+  margin: 21px 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ffc045;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 17px;
+  height: 17px;
+  margin: 5px 4px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: -34px;
+  text-align: left;
+  z-index: 999;
+  position: relative;
+}
+
+.owl-dots button {
+  outline: none;
+}
+
+/* ================
+Reservation Section
+================ */
+.reservation-section {
+  background: url(../img/Reservation.png) no-repeat center;
+  background-size: cover;
+  padding: 75px 0 50px;
+}
+
+.reservation-section h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #3d2514;
+  text-align: center;
+}
+
+.reservation-section h2 {
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #3d2514;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.form-control {
+  border: 2px solid #bebebe;
+  width: 100%;
+  padding: 15px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: 22px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-reservation {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  background: #bf2222;
+  font-size: 25px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  border: none;
+  height: 67px;
+}
+
+.btn-reservation:hover {
+  color: #3d2514;
+  background: #ffc045;
+}
+
+/* ===========
+Footer Section
+=========== */
+footer {
+  background: url(../img/footer-background.png) no-repeat center top;
+  background-size: cover;
+  padding: 75px 0px 0px;
+}
+
+footer p {
+  color: #fff;
+  padding: 25px 0;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+}
+
+.widget h3 {
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  padding: 18px 0px;
+  font-size: 46px;
+  margin-bottom: -3px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.widget ul {
+  padding: 0;
+  text-align: center;
+}
+
+.widget ul li {
+  list-style: none;
+}
+
+.useful-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  line-height: 26px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.useful-links ul li a:hover {
+  color: #ffc045;
+  padding-left: 5px;
+}
+
+.social-media ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px 3px;
+}
+
+.social-media ul li a .fa {
+  color: #fff;
+  font-size: 26px;
+  width: 40px;
+  height: 40px;
+  background: #bf2222;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-media ul li a .fa:hover {
+  background: #ffc045;
+  transform: scale(1.22);
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* ===================
+Media Query For Mobile
+=================== */
+@media (min-width: 320px) and (max-width: 575px) {
+  .logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: initial;
+  }
+
+  .contact-info {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 2px;
+  }
+
+  .navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+
+  .banner-section {
+    padding: 40px 0px;
+  }
+
+  .banner-section h4 {
+    margin: 0 auto;
+  }
+
+  .banner-section h1 {
+    font-size: 75px;
+    text-align: center;
+  }
+
+  .banner-section h3 {
+    text-align: center;
+  }
+
+  .banner-item {
+    padding: 30px;
+  }
+
+  .package-price {
+    width: 130px;
+    height: 130px;
+    bottom: -30px;
+  }
+
+  .package-price-border {
+    width: 103px;
+    height: 103px;
+  }
+
+  .package-price h2 {
+    font-size: 40px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+
+  .package-price h2 span {
+    font-size: 30px;
+  }
+
+  .package-price p {
+    font-size: 25px;
+    padding-left: 10px;
+    letter-spacing: 8px;
+  }
+
+  .features-section {
+    padding-top: 40px;
+  }
+
+  .features-text {
+    padding: 10px 15px;
+  }
+
+  .features-text h4 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .features-text h3 {
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .features-item-last {
+    padding: 20px 15px;
+  }
+
+  .left-item {
+    margin-bottom: 20px;
+  }
+
+  .right-first-item {
+    margin-bottom: 20px;
+  }
+
+  .menu-section {
+    padding-top: 40px;
+  }
+
+  .menu-section h3 {
+    width: 65%;
+    padding: 14px 0px;
+    border-radius: 5px;
+  }
+
+  .menu-section h2 {
+    font-size: 42px;
+  }
+
+  .btn-menu {
+    width: 60%;
+  }
+
+  .menu-burger {
+    margin-top: 25px;
+  }
+
+  .menu-items {
+    padding: 0px;
+  }
+
+  .events-section {
+    padding: 0px;
+  }
+
+  .events-section h4 {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .events-section h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .events-section p {
+    text-align: center;
+    padding: 0px 40px;
+  }
+
+  .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+
+  .reservation-section {
+    padding-bottom: 34px;
+  }
+
+  .reservation-section h2 {
+    font-size: 42px;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  footer img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  footer p {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  header {
+    padding-bottom: 100px;
+  }
+
+  .logo {
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .contact-info {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .navbar-light .navbar-toggler {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-toggler {
+    font-size: 40px;
+    width: 90px;
+    height: 75px;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .banner-section {
+    padding: 20px 0 0;
+  }
+
+  .banner-section h4 {
+    margin: 15px auto;
+  }
+
+  .banner-section h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .banner-section h3 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .banner-item {
+    padding: 30px;
+  }
+
+  .features-section {
+    padding: 40px 0 10px;
+  }
+
+  .features-item {
+    margin-bottom: 30px;
+  }
+
+  .last-item {
+    margin: 0;
+  }
+
+  .menu-section {
+    padding: 0px;
+  }
+
+  .menu-section h3 {
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+  .btn-menu {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .menu-items {
+    padding-bottom: 0;
+  }
+
+  .events-section {
+    padding: 0 0 76px;
+  }
+
+  .events-section h4 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .events-section h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .events-section p {
+    text-align: center;
+    padding: 0px 45px;
+  }
+
+  .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+
+  .reservation-section {
+    padding: 40px 0 24px;
+  }
+
+  .reservation-section h4 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .reservation-section h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .form-control {
+    font-size: 25px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer p {
+    padding: 28px;
+  }
+
+  .useful-links ul li a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .contact-info li {
+    padding: 2px;
+  }
+
+  .navbar-light .navbar-toggler {
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-toggler {
+    font-size: 40px;
+    width: 90px;
+    height: 75px;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .banner-section {
+    padding: 50px 0;
+  }
+
+  .banner-section h4 {
+    margin-top: 15px;
+  }
+
+  .banner-section h1 {
+    font-size: 70px;
+  }
+
+  .package-price {
+    width: 150px;
+    height: 150px;
+  }
+
+  .package-price-border {
+    width: 123px;
+    height: 123px;
+  }
+
+  .package-price h2 {
+    font-size: 55px;
+    padding-top: 15px;
+    padding-left: 0;
+  }
+
+  .package-price h2 span {
+    font-size: 35px;
+  }
+
+  .package-price p {
+    padding-left: 15px;
+  }
+
+  .features-section {
+    padding-top: 50px;
+  }
+
+  .features-text {
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  .features-text h3 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+
+  .right-first-item {
+    margin-bottom: 21px;
+  }
+
+  .menu-section {
+    padding: 50px 0 0;
+  }
+
+  .menu-section h3 {
+    width: 35%;
+  }
+
+  .btn-menu {
+    width: 85%;
+    font-size: 20px;
+  }
+
+  .events-section {
+    padding: 50px 0px;
+  }
+
+  .owl-carousel-img {
+    position: relative;
+    width: 336px;
+    height: 224.333px;
+  }
+
+  .owl-carousel-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .owl-theme .owl-dots .owl-dot {
+    display: none;
+  }
+
+  .reservation-section {
+    padding: 50px 0;
+  }
+
+  .btn-reservation {
+    padding: 18px;
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 50px 0px 0px;
+  }
+
+  .social-media ul li {
+    display: flex;
+  }
+
+  .social-media a {
+    margin: 5px auto;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+  .banner-section h4 {
+    margin-top: 105px;
+  }
+
+  .banner-section h1 {
+    font-size: 95px;
+  }
+
+  .features-text h3 {
+    font-size: 35px;
+  }
+
+  .left-item img {
+    height: 339.3px;
+  }
+
+  .menu-section h3 {
+    width: 30%;
+  }
+
+  .btn-menu {
+    width: 75%;
+  }
+
+  .events-section {
+    padding: 0px;
+  }
+
+  .events-section h4 {
+    padding-top: 0;
+  }
+
+  .owl-dots {
+    display: none;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+  .banner-section h1 {
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 115px;
+    text-shadow: 3px 3px 3px #fff;
+    margin: 0;
+    line-height: 100px;
+    padding-top: 18px;
+  }
+
+  .left-item img {
+    height: 397.6px;
+  }
+}
